@@ -1,0 +1,20 @@
+{
+  "name": "web2",
+  "version": "1.0.0",
+  "description": "MY webiste",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch scss/_config.scss:dist/css/_config.css",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Web2"
+  },
+  "author": "saif ali",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "node-sass": "^6.0.1",
+    "sass": "^1.43.4"
+  }
+}
