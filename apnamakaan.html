@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="css/config.css" />
+    <title>ApnaMakaan</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="menu-btn">
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
+      </div>
+
+      <nav class="menu">
+        <div class="menu-branding">
+          <div class="portrait"></div>
+        </div>
+        <ul class="menu-nav">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link"> Home </a>
+          </li>
+          <li class="nav-item current">
+            <a href="about.html" class="nav-link"> About Me </a>
+          </li>
+          <li class="nav-item">
+            <a href="work.html" class="nav-link"> My Work </a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link"> How To Reach Me </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <style>
+        p{
+            text-align: justify;
+        }
+        .job {
+            padding: 0px;
+        }
+        
+    </style>
+    <main id="about">
+      <h1 class="sm-heading">
+       Revolutionizing Home Hunting with Machine Learning: <span class="text-secondary">Introducing the Flat Suggestion Tool</span>
+      </h1>
+      <h3 class="sm-heading">
+        <div class="bio">
+            <p>
+                <h2 class="text-secondary">Introduction</h2>
+                <p>The world is constantly developing and thriving in every aspect, thanks to modern technology and machines that make tedious and complicated tasks easier to complete within a timeframe. Just as humans learn and gain knowledge, machines can also learn through the data we provide, enabling a continuous learning process. Machine learning (ML) has experienced tremendous growth due to the availability of vast amounts of data, affordable data storage, and powerful processing capabilities. Industries across various sectors are leveraging ML to analyze complex data, deliver faster and more accurate results, and identify profitable opportunities and potential risks. Machine learning has become a crucial competitive differentiator for leading companies like Facebook, Google, and Uber, driving innovation and business success.</p>
+                <h2 class="text-secondary">Problem Statement and Motivation</h2>
+                <p>With the increase in population and the desire for a better lifestyle, there has been a surge in the demand for flats. However, finding a suitable flat that meets our needs and is budget-friendly can be a challenging task. Many people end up compromising their preferences due to a lack of options and clear price trends. The process of house-buying is often complicated and time-consuming, with an overwhelming amount of information available online. We recognized this problem and set out to improve the overall user experience in finding an ideal home. Our project aims to develop a system that provides open-minded house-hunters with personalized recommendations to discover their perfect home.</p>
+                
+                <h2 class="text-secondary">Objectives</h2>
+                <p>This project intends to create a robust recommendation system for the platform, utilizing the following information to generate relevant suggestions for the user:</p>
+                <ul>
+                <li><strong>User Preferences:</strong> Input given by the user indicating house preferences.</li>
+                <li><strong>House Characteristics:</strong> This information includes factors such as the number of rooms, number of bathrooms, floor, and area.</li>
+                <li><strong>Price Range:</strong> A range of prices for easy selection, keeping in mind the price trend.</li>
+                </ul>
+                <h2 class="text-secondary">Limitations of Existing Systems</h2>
+                <p>Existing systems have several limitations that hinder the house-hunting process:</p>
+                <ol>
+                <li><strong>Incomplete Information:</strong> Property listings often focus only on positive aspects, neglecting potential drawbacks.</li>
+                <li><strong>Errors in Listings:</strong> Listings may contain errors in key search parameters, such as the number of bedrooms, bathrooms, or parking spaces.</li>
+                <li><strong>Deceptive Photos:</strong> Some photos may be digitally altered or taken with a wide-angle lens, creating a misleading perception of space.</li>
+                <li><strong>Lack of Floor Plans:</strong> The absence of floor plans makes it difficult to evaluate the layout of a property.</li>
+                </ol>
+                <h2 class="text-secondary">Methodology</h2>
+                <p>The proposed flat price prediction technique follows a specific methodology:</p>
+                <ol>
+                <li>Data Collection: A comprehensive dataset has been collected from Mumbai.</li>
+                <li>Data Preprocessing: The collected data has been preprocessed and normalized.</li>
+                <li>Data Validation: The validity of the dataset has been checked.</li>
+                <li>Train-Test Split: The dataset has been divided into training and testing sets.</li>
+                <li>Model Building: A model has been developed using the training dataset.</li>
+                <li>Model Testing: The built model has been tested using the testing dataset.</li>
+                <li>Accuracy Calculation: The accuracy of the proposed model has been calculated.</li>
+                </ol>
+                <p>The implementation of the project utilizes the Bootstrap framework for website design and Python's Flask module to connect web pages with the CSV database. The training and testing of the database are performed based on user inputs, and the suggested flats are displayed on a dedicated web page.</p>
+                <h2 class="text-secondary">Conclusion</h2>
+                <p>In this research project, we utilized machine learning algorithms to predict house prices and suggest suitable houses to users within their budget. The data was preprocessed and fed into various regression models to determine the most effective model with the highest accuracy and lowest root mean square error (RMSE). Based on our results, the Random Forest Regression Model emerged as the most effective model for predicting house prices and providing recommendations to customers.</p>
+                <p>By incorporating machine learning into the realm of real estate, we are revolutionizing the way people search for flats. Our Flat Suggestion Tool aims to alleviate the challenges of house hunting, offering personalized recommendations based on user preferences and price range. With technology as our ally, we believe that finding the perfect home should be a seamless and enjoyable process for everyone. Stay tuned as we continue to innovate and improve our platform to make house hunting a breeze for all.</p>
+            </p>
+          </div>
+
+      </h3>
+      
+        <h1 class="text-secondary">Outputs</h1>
+        <div class="about-info">
+          <div class="job job-1">
+            <img src="img/projects/flat/flat1.png"  style="float: right;" alt="Home Hunting" width="450" height="300">
+          </div>
+  
+          <div class="job job-2">
+            <img src="img/projects/flat/flat2.png"  style="float: right;" alt="Home Hunting" width="450" height="300">
+          </div>
+          <div class="job job-3">
+            <img src="img/projects/flat/flat4.png"  style="float: right;" alt="Home Hunting" width="450" height="300">
+          </div>
+          
+        </div>
+        <br>
+       
+      
+      </div>
+    </main>
+
+    <footer id="main-footer">Copyright  &copy; <span id="date"></span></footer>
+    <script>
+      let year = new Date().getFullYear();
+      let date = (document.getElementById("date").innerText = year);
+    </script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

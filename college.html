@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="css/config.css" />
+    <title>College Management System</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="menu-btn">
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
+      </div>
+
+      <nav class="menu">
+        <div class="menu-branding">
+          <div class="portrait"></div>
+        </div>
+        <ul class="menu-nav">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link"> Home </a>
+          </li>
+          <li class="nav-item current">
+            <a href="about.html" class="nav-link"> About Me </a>
+          </li>
+          <li class="nav-item">
+            <a href="work.html" class="nav-link"> My Work </a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link"> How To Reach Me </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <style>
+        p{
+            text-align: justify;
+        }
+        .job {
+            padding: 0px;
+        }
+        
+    </style>
+    <main id="about">
+      <h1 class="sm-heading">
+        Computerizing<span class="text-secondary"> College Management System</span>
+      </h1>
+      <h3 class="sm-heading">
+        <div class="bio">
+            <p>In the fast-paced 21st century, computerization has become essential in streamlining various tasks. The aim of this project is to computerize simple college tasks, making them more efficient and paper-free. By leveraging Java Swing for the desktop application and MySQL for data storage, we have successfully developed a comprehensive College Management System.</p>
+                <p>This GUI-based application caters to the needs of colleges, simplifying tasks such as marking attendance, maintaining student and teacher records, making announcements, and generating and sending marksheets to students. With the power of Java, the application provides an intuitive and user-friendly interface that can be easily navigated by college staff.</p>
+                <p>The College Management System offers several features that enhance productivity and organization. The "Attendance" module enables teachers to efficiently mark student attendance, eliminating the need for manual record-keeping. The "Student Records" and "Teacher Records" modules store and manage comprehensive details of students and faculty members respectively, facilitating easy access to important information. The "Announcements" module allows administrators to communicate important notices and updates to students, ensuring effective communication. Lastly, the "Marksheets" module generates marksheets for students and provides an option to send them digitally, reducing paper usage.</p>
+                <p>By adopting this computerized system, colleges can save time, reduce paperwork, and enhance overall efficiency. Additionally, it promotes a greener environment by minimizing paper waste. The integration of Java Swing and MySQL provides a robust and reliable foundation for this College Management System, ensuring secure storage and retrieval of data.</p>
+                <p>Embrace the power of technology and take a step towards a more streamlined and sustainable college management process. Explore the College Management System and experience the benefits of computerization in educational institutions.</p>
+            </p>
+          </div>
+
+      </h3>
+      
+        <h1 class="text-secondary">Outputs</h1>
+        <div class="about-info">
+          <div class="job job-1">
+            <img src="img/projects/college/1.png"  style="float: right;" alt="Home Hunting" width="450" height="300">
+          </div>
+          <div class="job job-2">
+            <img src="img/projects/college/2.png"  style="float: right;" alt="Home Hunting" width="450" height="300">
+          </div>
+          <div class="job job-3">
+            <img src="img/projects/college/3.png"  style="float: right;" alt="Home Hunting" width="450" height="300">
+          </div>
+        </div>
+        <br>
+        <div class="about-info">
+          <div class="job job-1">
+            <img src="img/projects/college/4.png"  style="float: right;" alt="Home Hunting" width="450" height="300">
+          </div>
+          <div class="job job-2">
+            <img src="img/projects/college/5.png"  style="float: right;" alt="Home Hunting" width="450" height="300">
+          </div>
+          <div class="job job-3">
+            <img src="img/projects/college/6.png"  style="float: right;" alt="Home Hunting" width="450" height="300">
+          </div>
+        </div>
+        <br>
+        <div class="about-info">
+          <div class="job job-1">
+            <img src="img/projects/college/7.png"  style="float: right;" alt="Home Hunting" width="450" height="300">
+          </div>
+          <div class="job job-2">
+            <img src="img/projects/college/8.png"  style="float: right;" alt="Home Hunting" width="450" height="300">
+          </div>
+          <div class="job job-3">
+            <img src="img/projects/college/9.png"  style="float: right;" alt="Home Hunting" width="450" height="300">
+          </div>
+        </div>
+        <br>
+       
+      
+      </div>
+    </main>
+
+    <footer id="main-footer">Copyright  &copy; <span id="date"></span></footer>
+    <script>
+      let year = new Date().getFullYear();
+      let date = (document.getElementById("date").innerText = year);
+    </script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
