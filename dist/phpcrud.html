@@ -50,7 +50,30 @@
         .job {
             padding: 0px;
         }
-        
+        .projects {
+  display: grid;
+  grid-gap: 0.7rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+.projects img {
+  height: 250px;
+  width: 100%;
+  border: 3px #fff solid;
+}
+@media screen and (max-width: 800px) {
+ 
+
+  .projects {
+    grid-template-columns: 2fr;
+  }
+}
+@media screen and (max-width: 500px) {
+ 
+
+  .projects {
+    grid-template-columns: 1fr;
+  }
+}
     </style>
     <main id="about">
       <h1 class="sm-heading">
@@ -71,13 +94,13 @@
       </h3>
       
         <h1 class="text-secondary">Outputs</h1>
-        <div class="about-info">
-          <div class="job job-1">
-            <img src="img/projects/phpcrud/phpcrud1.png"  style="float: right;" alt="Home Hunting" width="450" height="300">
-          </div>
-  
-          
+        <br><br>
+        <div class="projects">
+            <div class="item">
+                <img src="img/projects/phpcrud/phpcrud1.png"    alt="Home Hunting" >
+            </div>
         </div>
+        
         <br>
        
       

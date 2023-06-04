@@ -50,7 +50,30 @@
         .job {
             padding: 0px;
         }
-        
+        .projects {
+  display: grid;
+  grid-gap: 0.7rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+.projects img {
+  height: 250px;
+  width: 100%;
+  border: 3px #fff solid;
+}
+@media screen and (max-width: 800px) {
+ 
+
+  .projects {
+    grid-template-columns: 2fr;
+  }
+}
+@media screen and (max-width: 500px) {
+ 
+
+  .projects {
+    grid-template-columns: 1fr;
+  }
+}
     </style>
     <main id="about">
       <h1 class="sm-heading">
@@ -100,19 +123,31 @@
       </h3>
       
         <h1 class="text-secondary">Outputs</h1>
-        <div class="about-info">
+<br><br>
+        <div class="projects">
+          <div class="item">
+            <img src="img/projects/flat/flat1.png"   alt="Home Hunting" >
+          </div>
+          <div class="item">
+            <img src="img/projects/flat/flat2.png"alt="Home Hunting" >
+          </div>
+          <div class="item">
+            <img src="img/projects/flat/flat4.png"alt="Home Hunting" >
+          </div>
+        </div>
+        <!-- <div class="about-info">
           <div class="job job-1">
-            <img src="img/projects/flat/flat1.png"  style="float: right;" alt="Home Hunting" width="450" height="300">
+            <img src="img/projects/flat/flat1.png" alt="Home Hunting">
           </div>
   
           <div class="job job-2">
-            <img src="img/projects/flat/flat2.png"  style="float: right;" alt="Home Hunting" width="450" height="300">
+            <img src="img/projects/flat/flat2.png"alt="Home Hunting" >
           </div>
           <div class="job job-3">
-            <img src="img/projects/flat/flat4.png"  style="float: right;" alt="Home Hunting" width="450" height="300">
+            <img src="img/projects/flat/flat4.png"   alt="Home Hunting">
           </div>
           
-        </div>
+        </div> -->
         <br>
        
       
