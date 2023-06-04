@@ -50,7 +50,30 @@
         .job {
             padding: 0px;
         }
-        
+        .projects {
+  display: grid;
+  grid-gap: 0.7rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+.projects img {
+  height: 250px;
+  width: 100%;
+  border: 3px #fff solid;
+}
+@media screen and (max-width: 800px) {
+ 
+
+  .projects {
+    grid-template-columns: 2fr;
+  }
+}
+@media screen and (max-width: 500px) {
+ 
+
+  .projects {
+    grid-template-columns: 1fr;
+  }
+}
     </style>
     <main id="about">
       <h1 class="sm-heading">
@@ -69,7 +92,64 @@
       </h3>
       
         <h1 class="text-secondary">Outputs</h1>
-        <div class="about-info">
+<br><br>
+        <div class="projects">
+            <div class="item">
+            
+                <img src="img/projects/college/1.png" alt="Project" />
+              
+              
+            </div>
+            <div class="item">
+            
+                <img src="img/projects/college/2.png" alt="Project" />
+              
+              
+            </div>
+            <div class="item">
+            
+                <img src="img/projects/college/3.png" alt="Project" />
+              
+              
+            </div>
+            <div class="item">
+            
+                <img src="img/projects/college/4.png" alt="Project" />
+              
+              
+            </div>
+            <div class="item">
+            
+                <img src="img/projects/college/5.png" alt="Project" />
+              
+              
+            </div>
+            <div class="item">
+            
+                <img src="img/projects/college/6.png" alt="Project" />
+              
+              
+            </div>
+            <div class="item">
+            
+                <img src="img/projects/college/7.png" alt="Project" />
+              
+              
+            </div>
+            <div class="item">
+            
+                <img src="img/projects/college/8.png" alt="Project" />
+              
+              
+            </div>
+            <div class="item">
+            
+                <img src="img/projects/college/9.png" alt="Project" />
+              
+              
+            </div>
+          </div>
+        <!-- <div class="about-info">
           <div class="job job-1">
             <img src="img/projects/college/1.png"  style="float: right;" alt="Home Hunting" width="450" height="300">
           </div>
@@ -79,9 +159,9 @@
           <div class="job job-3">
             <img src="img/projects/college/3.png"  style="float: right;" alt="Home Hunting" width="450" height="300">
           </div>
-        </div>
+        </div> -->
         <br>
-        <div class="about-info">
+        <!-- <div class="about-info">
           <div class="job job-1">
             <img src="img/projects/college/4.png"  style="float: right;" alt="Home Hunting" width="450" height="300">
           </div>
@@ -91,20 +171,20 @@
           <div class="job job-3">
             <img src="img/projects/college/6.png"  style="float: right;" alt="Home Hunting" width="450" height="300">
           </div>
-        </div>
+        </div> -->
         <br>
-        <div class="about-info">
+        <!-- <div class="about-info">
           <div class="job job-1">
-            <img src="img/projects/college/7.png"  style="float: right;" alt="Home Hunting" width="450" height="300">
+            <img src="img/projects/college/7.png"  style="max-width: 450px;" alt="Home Hunting" >
           </div>
           <div class="job job-2">
-            <img src="img/projects/college/8.png"  style="float: right;" alt="Home Hunting" width="450" height="300">
+            <img src="img/projects/college/8.png"  style="min-width: 300px;max-width: 450px;" alt="Home Hunting">
           </div>
           <div class="job job-3">
-            <img src="img/projects/college/9.png"  style="float: right;" alt="Home Hunting" width="450" height="300">
+            <img src="img/projects/college/9.png"  style="min-width: 300px;max-width: 450px;" alt="Home Hunting" >
           </div>
         </div>
-        <br>
+        <br> -->
        
       
       </div>
