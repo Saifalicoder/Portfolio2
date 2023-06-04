@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="css/config.css" />
+    <title>phpcrud</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="menu-btn">
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
+      </div>
+
+      <nav class="menu">
+        <div class="menu-branding">
+          <div class="portrait"></div>
+        </div>
+        <ul class="menu-nav">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link"> Home </a>
+          </li>
+          <li class="nav-item current">
+            <a href="about.html" class="nav-link"> About Me </a>
+          </li>
+          <li class="nav-item">
+            <a href="work.html" class="nav-link"> My Work </a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link"> How To Reach Me </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <style>
+        p{
+            text-align: justify;
+        }
+        .job {
+            padding: 0px;
+        }
+        
+    </style>
+    <main id="about">
+      <h1 class="sm-heading">
+        Welcome to the<span class="text-secondary"> School Management System</span>
+      </h1>
+      <h3 class="sm-heading">
+        <div class="bio">
+            <p>
+              
+                <p>This system allows teachers to perform CRUD operations on student records. They can add new records, edit existing records, delete records, and even upload student images.</p>
+                <p>With the help of PHP for backend processing and the Bootstrap framework for frontend design, this system provides a user-friendly interface for managing student information.</p>
+                <p>Teachers can easily navigate through the system using the navigation bar at the top. The "Add Record" link allows them to add a new student record by providing necessary details such as name, class, and photo. The "View Records" link allows them to view all the student records in a tabular format and perform various operations like editing or deleting specific records.</p>
+                <p>By leveraging the power of PHP and Bootstrap, this school management system simplifies the administrative tasks of maintaining student records, making it more efficient and organized.</p>
+                <p>Start using the system now and experience the convenience it brings to school management!</p>
+            </p>
+          </div>
+
+      </h3>
+      
+        <h1 class="text-secondary">Outputs</h1>
+        <div class="about-info">
+          <div class="job job-1">
+            <img src="img/projects/phpcrud/phpcrud1.png"  style="float: right;" alt="Home Hunting" width="450" height="300">
+          </div>
+  
+          
+        </div>
+        <br>
+       
+      
+      </div>
+    </main>
+
+    <footer id="main-footer">Copyright  &copy; <span id="date"></span></footer>
+    <script>
+      let year = new Date().getFullYear();
+      let date = (document.getElementById("date").innerText = year);
+    </script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
